@@ -1,0 +1,325 @@
+{
+    "ppid": "PTQUE0ECYKJEQQ",
+    "defect_type": "SMT偏位",
+    "detect_workstation": "SMT-INSPECT-T",
+    "defect_locations": {
+        "PL655": {
+            "equipments": {
+                "equipment_code": "P29A-011",
+                "equipment_name": "P29A松下机台4",
+                "equipment_track_id": 150017,
+                "equipment_table_number": 15,
+                "equipment_nozzle_number": 7,
+                "equipment_track_side_code": 0.0,
+                "equipment_track_side": "L",
+                "equipment_track_number": "150017L",
+                "equipment_track_code": "P29AT151517L",
+                "equipment_track_id_short": "17L",
+                "equipment_x_coord": 38.07,
+                "equipment_y_coord": 93.64,
+                "feeder_id": "E-SXCM-16YYE-10120"
+            },
+            "material": {
+                "main_material_code": "63036MG01-129-H",
+                "sub_material_codes": [
+                    "63036MG00-67M-H",
+                    "63036MG01-129-H",
+                    "63036MG02-045-H"
+                ],
+                "type": "Power Choke",
+                "description": "Power Choke,220nH@100KHz,+/-20%,Isat=50A,Irate=36A,DCR=0.8m Ohm,SHLD,SMD,ROHS,HF",
+                "supplier_name": "MAGLAYERS",
+                "supplier_id": "MHT-07DZIR22ME991-D1",
+                "component_reel_id": "SNVDHMD24107065J8",
+                "lot_no": "L24102108H0",
+                "date_code": "2443",
+                "actual_material_code": "63036MG00-67M-H"
+            },
+            "people": {
+                "actual_feeding_material_code": "63036MG00-67M-H",
+                "feeder_loading_emp_id": "W4204998",
+                "feeder_loading_datetime": "2025-01-24 05:09:16.880000"
+            },
+            "root_cause": [
+                {
+                    "rc_code": "R6DGD010102",
+                    "rc_name": "rc_feeder_tape_mess",
+                    "rc_filter_category": "feeder",
+                    "rank": 10
+                },
+                {
+                    "rc_code": "R6DGD030204",
+                    "rc_name": "rc_solder_parameter_inconsistent",
+                    "rc_filter_category": "印刷機",
+                    "rank": 18
+                },
+                {
+                    "rc_code": "R6DGD040001",
+                    "rc_name": "rc_flip_machine_vibration",
+                    "rc_filter_category": "翻板機",
+                    "rank": 19
+                },
+                {
+                    "rc_code": "R6DGE040001",
+                    "rc_name": "rc_env_unclean_air",
+                    "rc_filter_category": "環",
+                    "rank": 48
+                }
+            ]
+        },
+        "J39": {
+            "equipments": {
+                "equipment_code": "P29A-015",
+                "equipment_name": "P29A泛用机2",
+                "equipment_track_id": 64,
+                "equipment_table_number": 20,
+                "equipment_nozzle_number": 2,
+                "equipment_track_side_code": NaN,
+                "equipment_track_side": "",
+                "equipment_track_number": "64",
+                "equipment_track_code": "P29AT202064",
+                "equipment_track_id_short": "64",
+                "equipment_x_coord": -45.619,
+                "equipment_y_coord": -42.53,
+                "feeder_id": null
+            },
+            "material": {
+                "main_material_code": "34032LG00-67Y-H",
+                "sub_material_codes": [
+                    "34032LG00-67Y-H",
+                    "340334C00-69S-G",
+                    "340334W00-38K-G"
+                ],
+                "type": "CONN",
+                "description": "CONN,NGFF,Key-M,0.5mm,Gold 10u inch,Ivory,SMD-67P,ROHS,HF",
+                "supplier_name": "FIT",
+                "supplier_id": "2E0BC26-F85WM-7H",
+                "component_reel_id": null,
+                "lot_no": null,
+                "date_code": null
+            },
+            "people": {
+                "actual_feeding_material_code": null,
+                "feeder_loading_emp_id": null,
+                "feeder_loading_datetime": null
+            },
+            "root_cause": [
+                {
+                    "rc_code": "R6DGD010102",
+                    "rc_name": "rc_feeder_tape_mess",
+                    "rc_filter_category": "feeder",
+                    "rank": 10
+                },
+                {
+                    "rc_code": "R6DGD030204",
+                    "rc_name": "rc_solder_parameter_inconsistent",
+                    "rc_filter_category": "印刷機",
+                    "rank": 18
+                },
+                {
+                    "rc_code": "R6DGD040001",
+                    "rc_name": "rc_flip_machine_vibration",
+                    "rc_filter_category": "翻板機",
+                    "rank": 19
+                },
+                {
+                    "rc_code": "R6DGE040001",
+                    "rc_name": "rc_env_unclean_air",
+                    "rc_filter_category": "環",
+                    "rank": 48
+                }
+            ]
+        },
+        "XC401": {
+            "equipments": {
+                "equipment_code": "P29A-008",
+                "equipment_name": "P29A松下机台1",
+                "equipment_track_id": 40006,
+                "equipment_table_number": 4,
+                "equipment_nozzle_number": 12,
+                "equipment_track_side_code": 2.0,
+                "equipment_track_side": "R",
+                "equipment_track_number": "40006R",
+                "equipment_track_code": "P29AT04406R",
+                "equipment_track_id_short": "6R",
+                "equipment_x_coord": 51.79,
+                "equipment_y_coord": 34.08,
+                "feeder_id": "E-SXCM-08YYE-13333"
+            },
+            "material": {
+                "main_material_code": "620103K00-011-H",
+                "sub_material_codes": [
+                    "620103K00-026-H",
+                    "620103K00-011-H",
+                    "620103K00-015-H",
+                    "620103K00-015-H",
+                    "620103K00-035-H",
+                    "620103K00-012-H",
+                    "620103K00-026-H",
+                    "620103K00-035-H",
+                    "620103K00-011-H",
+                    "620103K00-012-H"
+                ],
+                "type": "CAP",
+                "description": "CAP,1nF,+/-10%,X7R,50V,SMD0402,ROHS,HF",
+                "supplier_name": "YAGEO",
+                "supplier_id": "CC0402KRX7R9BB102",
+                "component_reel_id": "SVYU00124D89D9P0A",
+                "lot_no": "59N4256173",
+                "date_code": "122624",
+                "actual_material_code": "620103K00-011-H"
+            },
+            "people": {
+                "actual_feeding_material_code": "620103K00-011-H",
+                "feeder_loading_emp_id": "W0104769",
+                "feeder_loading_datetime": "2025-01-24 03:50:13.827000"
+            },
+            "root_cause": [
+                {
+                    "rc_code": "R6DGD010102",
+                    "rc_name": "rc_feeder_tape_mess",
+                    "rc_filter_category": "feeder",
+                    "rank": 10
+                },
+                {
+                    "rc_code": "R6DGD030204",
+                    "rc_name": "rc_solder_parameter_inconsistent",
+                    "rc_filter_category": "印刷機",
+                    "rank": 18
+                },
+                {
+                    "rc_code": "R6DGD040001",
+                    "rc_name": "rc_flip_machine_vibration",
+                    "rc_filter_category": "翻板機",
+                    "rank": 19
+                },
+                {
+                    "rc_code": "R6DGD060401",
+                    "rc_name": "rc_mounter_machine_precision_issue",
+                    "rc_filter_category": "貼片機",
+                    "rank": 38
+                },
+                {
+                    "rc_code": "R6DGD060403",
+                    "rc_name": "rc_maintenance_insufficient_mounter",
+                    "rc_filter_category": "貼片機",
+                    "rank": 40
+                },
+                {
+                    "rc_code": "R6DGE040001",
+                    "rc_name": "rc_env_unclean_air",
+                    "rc_filter_category": "環",
+                    "rank": 48
+                }
+            ]
+        }
+    },
+    "board_face": "正面",
+    "factory_line_id": "P29A",
+    "board_sku": "N18252-003",
+    "ng_datetime": "2025-01-24 05:19:56",
+    "event_datetime": "2025-01-24 05:11:32",
+    "reflow_count": null,
+    "material_code_to_location_mapping": {
+        "63036MG01-129-H": "{'PL655'}",
+        "63036MG00-67M-H": "{'PL655'}",
+        "63036MG02-045-H": "{'PL655'}",
+        "34032LG00-67Y-H": "{'J39'}",
+        "340334C00-69S-G": "{'J39'}",
+        "340334W00-38K-G": "{'J39'}",
+        "620103K00-011-H": "{'XC401'}",
+        "620103K00-026-H": "{'XC401'}",
+        "620103K00-015-H": "{'XC401'}",
+        "620103K00-035-H": "{'XC401'}",
+        "620103K00-012-H": "{'XC401'}"
+    },
+    "sn_process_time": {
+        "P29A-REFLOW-VI-B": "2025-01-24 04:04:29",
+        "P29A-SMT-INSPECT-B": "2025-01-24 04:08:18",
+        "P29A-SMT-INPUT-T": "2025-01-24 04:16:35",
+        "P29A-SPI-T": "2025-01-24 04:58:47",
+        "P29A-REFLOW-VI-T": "2025-01-24 04:59:33",
+        "P29A-SMT-INSPECT-T": "2025-01-24 16:07:19",
+        "P29A-SMT REPAIR": "2025-01-24 05:19:56",
+        "P29-PTH-INPUT-AI": "2025-01-24 19:18:49",
+        "P29-PTH-INPUT": "2025-01-24 19:22:18",
+        "P29-TOUCH UP-1": "2025-01-24 19:23:59",
+        "P29-ICT": "2025-01-24 19:31:25",
+        "P29-LINK-MAC": "2025-01-24 19:38:46",
+        "P29-FT-1": "2025-01-24 19:49:12",
+        "P29-FINAL-VI": "2025-01-24 19:55:00",
+        "P29-PACKING": "2025-01-24 20:02:12",
+        "P29-OBE": "2025-01-24 20:02:25",
+        "P29-IN STORE": "2025-01-24 20:18:40",
+        "P29-SHIPPING": "2025-01-24 20:25:09"
+    },
+    "qc_codes": "{'ES0011BB', 'ES0011', 'ES0011T', 'ERR015', 'ES0011B'}",
+    "defect_type_aoi_query": "偏移",
+    "factory_line": "%P29%",
+    "factory_line_query": "%P29A%",
+    "ng_time": "2025-01-24 05:19:56",
+    "event_date": "2025-01-23",
+    "feeder_loading_emp_ids": [
+        "W4204998",
+        "W0104769"
+    ],
+    "main_material_code": [
+        "63036MG01-129-H",
+        "34032LG00-67Y-H",
+        "620103K00-011-H"
+    ],
+    "track_code": [
+        "P29AT151517L",
+        "P29AT202064",
+        "P29AT04406R"
+    ],
+    "sub_material_code": [],
+    "component_location": [
+        "PL655",
+        "J39",
+        "XC401"
+    ],
+    "feeder_id": [
+        "E-SXCM-16YYE-10120",
+        "E-SXCM-08YYE-13333"
+    ],
+    "feeding_emp_work_dates": [
+        "2025-01-23"
+    ],
+    "shift": "N",
+    "table_id": [
+        15,
+        20,
+        4
+    ],
+    "nozzle_id": [
+        7,
+        2,
+        12
+    ],
+    "location_type_mapping": {
+        "PL655": "POWER CHOKE",
+        "J39": "CONN",
+        "XC401": "CAP"
+    },
+    "time_range_3h": {
+        "start_dt": "2025-01-24 02:19:56",
+        "end_dt": "2025-01-24 05:34:56"
+    },
+    "time_range_12h": {
+        "start_dt": "2025-01-23 17:19:56",
+        "end_dt": "2025-01-24 05:34:56"
+    },
+    "time_range_1d": {
+        "start_dt": "2025-01-23 05:19:56",
+        "end_dt": "2025-01-24 05:34:56"
+    },
+    "time_range_15d": {
+        "start_dt": "2025-01-09 05:19:56",
+        "end_dt": "2025-01-24 05:34:56"
+    },
+    "time_range_90d": {
+        "start_dt": "2024-10-26 05:19:56",
+        "end_dt": "2025-01-24 05:34:56"
+    }
+}
